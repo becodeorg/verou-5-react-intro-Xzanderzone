@@ -1,7 +1,7 @@
 function Header() {
 	return (
 		<header>
-			<p>Header ipsum</p>;
+			<p>Header ipsum</p>
 		</header>
 	);
 }
