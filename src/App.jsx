@@ -1,11 +1,12 @@
 import "./style.css";
-import { MyButton, TodoList } from "./Buttons";
+import { TodoList } from "./Buttons";
+import Calendar from "./components/calendar";
 
 function App() {
 	return (
 		<div className="App">
-			<MyButton />
 			<TodoList />
+			<Calendar events="wtf" />
 		</div>
 	);
 }
